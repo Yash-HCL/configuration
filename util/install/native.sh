@@ -17,7 +17,7 @@ if [[ ! $OPENEDX_RELEASE ]]; then
     exit
 fi
 
-if [[ `lsb_release -rs` != "16.04" ]]; then
+if [[ `lsb_release -rs` != "18.04" ]]; then
     echo "This script is only known to work on Ubuntu 16.04, exiting..."
     exit
 fi
